@@ -14,6 +14,7 @@ const config = {
   },
   copy: {
     patterns: [
+      {from: 'src/app.ts', to: 'dist/app.ts'}
     ],
     options: {
     }
